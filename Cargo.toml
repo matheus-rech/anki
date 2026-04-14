@@ -54,7 +54,7 @@ ninja_gen = { "path" = "build/ninja_gen" }
 unicase = "=2.6.0" # any changes could invalidate sqlite indexes
 
 # normal
-ammonia = "4.0.0"
+ammonia = "4.0.1"
 anyhow = "1.0.90"
 apple-bundles = "0.17.0"
 async-compression = { version = "0.4.17", features = ["zstd", "tokio"] }
@@ -64,7 +64,7 @@ axum = { version = "0.7", features = ["multipart", "macros"] }
 axum-client-ip = "0.6"
 axum-extra = { version = "0.9.4", features = ["typed-header"] }
 blake3 = "1.5.4"
-bytes = "1.7.2"
+bytes = "1.11.1"
 camino = "1.1.9"
 chrono = { version = "0.4.38", default-features = false, features = ["std", "clock"] }
 clap = { version = "4.5.20", features = ["derive"] }
@@ -110,8 +110,8 @@ prost-build = "0.13"
 prost-reflect = "0.14"
 prost-types = "0.13"
 pulldown-cmark = "0.9.6"
-pyo3 = { version = "0.23.4", features = ["extension-module", "abi3", "abi3-py39"] }
-rand = "0.8.5"
+pyo3 = { version = "0.24.1", features = ["extension-module", "abi3", "abi3-py39"] }
+rand = "0.9.3"
 regex = "1.11.0"
 reqwest = { version = "0.12.8", default-features = false, features = ["json", "socks", "stream", "multipart"] }
 rusqlite = { version = "0.30.0", features = ["trace", "functions", "collation", "bundled"] }
@@ -128,15 +128,15 @@ simple-file-manifest = "0.11.0"
 snafu = { version = "0.8.5", features = ["rust_1_61"] }
 strum = { version = "0.26.3", features = ["derive"] }
 syn = { version = "2.0.82", features = ["parsing", "printing"] }
-tar = "0.4.42"
+tar = "0.4.45"
 tempfile = "3.13.0"
 termcolor = "1.4.1"
-tokio = { version = "1.40", features = ["fs", "rt-multi-thread", "macros", "signal"] }
+tokio = { version = "1.43", features = ["fs", "rt-multi-thread", "macros", "signal"] }
 tokio-util = { version = "0.7.12", features = ["io"] }
 tower-http = { version = "0.5", features = ["trace"] }
 tracing = { version = "0.1.40", features = ["max_level_trace", "release_max_level_debug"] }
 tracing-appender = "0.2.3"
-tracing-subscriber = { version = "0.3.18", features = ["fmt", "env-filter"] }
+tracing-subscriber = { version = "0.3.20", features = ["fmt", "env-filter"] }
 tugger-windows-codesign = "0.10.0"
 unic-langid = { version = "0.9.5", features = ["macros"] }
 unic-ucd-category = "0.9.0"
